@@ -11,4 +11,8 @@ int main(void) {
     mul = a * b;
     inv = -a;
 
+    printf("%d", inv);
+
+
+
 }
