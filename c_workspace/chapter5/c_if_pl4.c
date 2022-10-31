@@ -37,7 +37,7 @@ int main(void){
     26~30미만: 비만
     30 이상: 고도비만
 
-    if(bmi_value , 18.5){
+    if(bmi_value, 18.5){
         strcpy(bmi_degree, "저체중");
     } else if(bmi_value >= 18.5 && bmi_value < 23) {
         strcpy(bmi_degree, "정상");
@@ -51,6 +51,6 @@ int main(void){
 
     //5.출력
     printf("신장 %dcm, 몸무게 %dkg으로 \n", height, weight);
-    prntf("당시의 bmi지수는 %.2lf로 %s입니다.", bmi_value, bmi_degree);
+    printf("당시의 bmi지수는 %.2lf로 %s입니다.", bmi_value, bmi_degree);
 
 }
